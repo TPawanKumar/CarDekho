@@ -1,0 +1,12 @@
+prefix=e:/Projects/ML/CarDekho/carprice/Library
+exec_prefix=e:/Projects/ML/CarDekho/carprice/Library
+libdir=e:/Projects/ML/CarDekho/carprice/Library/lib
+includedir=e:/Projects/ML/CarDekho/carprice/Library/include
+
+Name: libzmq
+Description: 0MQ c++ library
+Version: 4.3.5
+Libs: -L${libdir} -lzmq
+Libs.private: -lstdc++ 
+Requires.private: 
+Cflags: -I${includedir} 
